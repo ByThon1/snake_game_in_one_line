@@ -1,6 +1,6 @@
 [
-    pygame = __import__('pygame'), # a safe way to import modules without using exec
-    random = __import__('random'),
+    pygame := __import__('pygame'), # a safe way to import modules without using exec
+    random := __import__('random'),
     pygame.init(),
     back := (192,192,192),
     gameDisplay := pygame.display.set_mode((800,600)),
